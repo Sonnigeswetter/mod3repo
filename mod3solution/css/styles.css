@@ -1,0 +1,84 @@
+.navbar-nav{
+	background-color: #A4A4AF;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-brand{
+  font-size:25px;
+}
+
+#nav-bar-list-element{
+	
+}
+
+#main-content-container .jumbotron{
+	border-radius: 0;	
+	padding-right:15px;
+	padding-left:15px;
+	padding-top:0px;
+	padding-bottom:25px;
+}
+
+
+.page-header {
+	border-bottom:none;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+
+.page-header h1{
+	font-size:25px;
+}
+
+.jumbotron{
+	height: 1000px;
+
+}
+
+.jumbotron h2{
+	margin-top:10px;
+	font-size:20px;
+}
+
+.jumbotron p{
+	font-size:18px;
+}
+ 
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+ 
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+	.navbar-nav{
+	 border: 1px solid #E7E7E7;
+	}
+	
+	#navbar-nav-element{
+	 border-bottom: 1px solid #E7E7E7;
+	}
+	
+	#main-content-container{
+ 		padding-right:70px;
+		padding-left:70px;
+	}
+	
+	.page-header { 
+	 
+	padding-bottom:0;
+	margin-bottom:0;
+}
+}
